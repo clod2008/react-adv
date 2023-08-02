@@ -23,11 +23,11 @@ export const ProductCard = () => {
         <div className={styles.buttonsContainer}>
           <button
             className={styles.buttonMinus}
-            onClick ={increseBy(-1)}> - </button>
+            onClick ={() => increseBy(-1)}> - </button>
           <div className={styles.countLabel}> {counter} </div>
           <button 
             className={styles.buttonAdd} 
-            onClick={increseBy(+1)}> + </button>
+            onClick={() => increseBy(+1)}> + </button>
         </div>
     </div>
   )
